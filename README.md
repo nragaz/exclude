@@ -1,5 +1,5 @@
 Exclude
-===============
+=======
 
 The inverse of `select` on an ActiveRecord::Relation. Use to avoid loading large columns (e.g. texts or blobs).
 

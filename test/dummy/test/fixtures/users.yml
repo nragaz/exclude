@@ -1,13 +1,5 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
-
 one:
-  name: MyString
-  email: MyString
-  born_on: 2011-06-13
-  locked_at: 2011-06-13 22:01:13
-
-two:
-  name: MyString
-  email: MyString
-  born_on: 2011-06-13
+  name: John Doe
+  email: john.doe@johndoe.com
+  born_on: 1984-09-17
   locked_at: 2011-06-13 22:01:13
