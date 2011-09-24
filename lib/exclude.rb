@@ -1,3 +1,5 @@
+require 'active_support/concern'
+
 module Exclude
   extend ActiveSupport::Concern
   
@@ -9,6 +11,8 @@ module Exclude
       selected_columns = self.column_names - columns_to_subtract
       
       select selected_columns.map { |c| "#{self.table_name}.#{c}" }.join(', ')
+    rescue
+      puts "Columns not available for `exclude`"
     end
   end
 end

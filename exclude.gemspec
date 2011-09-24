@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.summary = "The inverse of `select` on an ActiveRecord::Relation."
   s.description = "The inverse of `select` on an ActiveRecord::Relation. Use to avoid loading large columns (e.g. texts or blobs)."
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.authors = ["Nick Ragaz"]
   s.email = "nick.ragaz@gmail.com"
   s.homepage = "http://github.com/nragaz/exclude"
